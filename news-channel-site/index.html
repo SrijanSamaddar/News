@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Samvad 24x7</title>
+  <title>Samvad 24x7 - Your City, Your News</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Header -->
   <header>
     <div class="container">
       <div class="logo-search">
         <h1 class="logo">Samvad 24x7</h1>
         <form class="search-form">
-          <input type="text" placeholder="Search news..." />
+          <input type="text" placeholder="Search news...">
           <button type="submit">🔍</button>
         </form>
       </div>
@@ -28,23 +30,61 @@
     </div>
   </header>
 
-  <main class="container">
-    <section class="category-tag">Category: <span>Crime</span></section>
-    <article>
-      <img src="robbery-scene.jpg" alt="EM Bypass Robbery Location" class="banner">
-      <h2 class="headline">Robbery Trail Behind EM Bypass: Casting Director, Producers Robbed, Police Clueless</h2>
-      <p class="meta">Samvad 24x7 | Kolkata | May 26, 2024 | Updated 09:42 IST</p>
-      <p class="content">
-        KOLKATA: A disturbing trend of targeted highway robberies has emerged...
-        <!-- You can keep your long paragraph content here -->
-      </p>
-    </article>
-  </main>
+  <!-- Main Content -->
+  <div class="container main-layout">
 
+    <!-- Left: Main Article -->
+    <main class="main-content">
+      <section class="category-tag">Category: <span>Crime</span></section>
+      <article>
+        <img src="robbery-scene.jpg" alt="EM Bypass Robbery" class="banner">
+        <h2 class="headline">Robbery Trail Behind EM Bypass: Casting Director, Producers Robbed, Police Clueless</h2>
+        <p class="meta">Samvad 24x7 | Kolkata | May 26, 2024 | Updated 09:42 IST</p>
+        <p class="content">
+          KOLKATA: A disturbing trend of targeted highway robberies has emerged along EM Bypass...
+          <!-- (You can paste your full article content here) -->
+        </p>
+      </article>
+
+      <section class="related-stories">
+        <h3>More from Crime</h3>
+        <ul>
+          <li><a href="#">Two Robbed Near Kalikapur Crossing, Police Suspect Same Gang</a></li>
+          <li><a href="#">Residents Protest Lack of Street Lighting in Anandapur</a></li>
+          <li><a href="#">CCTV Footage May Reveal Identity of Repeat Offenders</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Right: Sidebar -->
+    <aside class="sidebar">
+      <section class="trending">
+        <h3>Trending</h3>
+        <ul>
+          <li><a href="#">Lok Sabha Session: Heated Debates Continue</a></li>
+          <li><a href="#">Celebrity Couple Ties Knot in Private Ceremony</a></li>
+          <li><a href="#">Tech Giant Announces Job Cuts</a></li>
+        </ul>
+      </section>
+
+      <section class="latest-news">
+        <h3>Latest News</h3>
+        <ul>
+          <li><a href="#">Heavy Rainfall Predicted Over Eastern India</a></li>
+          <li><a href="#">Metro Station Expansion Delayed</a></li>
+          <li><a href="#">New Film on Freedom Fighters Set to Release</a></li>
+        </ul>
+      </section>
+    </aside>
+
+  </div>
+
+  <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2024 Samvad 24x7 | All rights reserved.</p>
+      <p>&copy; 2024 Samvad 24x7 | Your City, Your Voice.</p>
     </div>
   </footer>
+
 </body>
 </html>
