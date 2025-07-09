@@ -60,7 +60,7 @@ header {
   border-radius: 3px;
 }
 
-/* Navigation (desktop default hidden) */
+/* Navigation */
 nav ul {
   list-style: none;
   display: flex;
@@ -194,13 +194,3 @@ nav a:hover {
 .related-stories a:hover {
   text-decoration: underline;
 }
-
-/* Sidebar */
-.sidebar section {
-  margin-bottom: 30px;
-}
-.sidebar h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #e6361f;
-  pad
